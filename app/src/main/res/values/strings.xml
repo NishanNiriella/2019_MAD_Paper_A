@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MAD2019PastPaperA</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="AdminLabel">Admin Panel</string>
+    <string name="AddMovie">Add</string>
+    <string name="movieName">Movie Name</string>
+    <string name="movieYear">Movie Year</string>
+    <string name="movieLabel">Movies</string>
+    <string name="rate">Rate</string>
+    <string name="comments">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="currentRating">Current Rating</string>
+</resources>
