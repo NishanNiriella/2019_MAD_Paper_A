@@ -177,11 +177,17 @@ public class DBHandler extends SQLiteOpenHelper {
         int tot;
 
         if(cursor.moveToFirst()){
-            tot = Integer.parseInt(cursor.getString(0));
-            return tot;
+            //System.out.println("cursor" + Integer.parseInt(cursor.getString(0)));
+            if(cursor.getString(0) == null){
+                return 0;
+            } else {
+                tot = Integer.parseInt(cursor.getString(0));
+                return tot;
+            }
+        } else{
+            System.out.println("No data");
+            return 0;
         }
-
-        return 0;
     }
 
     @Override
